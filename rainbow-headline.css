@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+h1, .rainbow {
+  position: absolute;
+  margin-top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: Ubuntu;
+  font-size: 5em;
+  font-weight: 900;
+  background: linear-gradient( 90deg, #454f5b 0%, #688298 15%, #ee7898 30%, #e6ed8e 45%, #9ccdb4 60%, #778399 75%, #ed9ab0 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+}
+
+footer {
+  background: #454f5b;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 13px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 987;
+}
+
+footer i {
+  color: #ee7898;
+}
+
+footer a {
+  color: #ee7898;
+  text-decoration: none;
+}

@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #54758F;
+}
+
+h1 {
+  color: #c1c116;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#wrapper {
+  background: #54758F;
+  position: relative;
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#flower {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 256px;
+  transform: rotate(12deg);
+}
+
+.petal {
+  background: #ff0065;
+  float: left;
+  margin: 1px 1px 0 0;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+transform: rotate(360deg) 6s;}
+
+#topleft {
+  border-bottom-right-radius: 0;
+  border-bottom: 2px solid #c33;
+  border-right: 2px solid #c33;
+}
+
+#topright {
+  border-bottom-left-radius: 0;
+  border-bottom: 2px solid #c33;
+  border-left: 2px solid #c33;
+}
+
+#bottomleft {
+  border-top-right-radius: 0;
+  border-top: 2px solid #c33;
+  border-right: 2px solid #c33;
+}
+
+#bottomright {
+  border-top-left-radius: 0;
+  border-top: 2px solid #c33;
+  border-left: 2px solid #c33;
+}
+
+#center {
+  position: absolute;
+  left: 112px;
+  top: 112px;
+  background: #DBC00E;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid #333;
+}
+
+#stem {
+  float: left;
+  width: 12px;
+  height: 200px;
+  margin: -30px 1px;
+  background-color: #093;
+}
+
+.leaf {
+	float: left;
+	margin-top: 50px;
+	background-color: #093;
+	width: 60px;
+	height: 30px;
+}
+
+#leftleaf {
+	clear: left;
+	margin-left: 60px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px
+}
+
+#rightleaf {
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px
+}
+
+.ground {
+  background: #c1c116;
+  width: 600px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.flower-rot {
+  display:inline-block;
+  animation: roll 3s infinite;
+}
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+/*
+.flower-rot {
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.flower-rot:hover {
+  -webkit-transform: rotate(360deg);
+   transform: rotate(360deg);
+}
+*/

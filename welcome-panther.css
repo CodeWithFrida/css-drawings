@@ -39,7 +39,9 @@ h1, .rainbow {
   background: linear-gradient( 90deg, #454f5b 0%, #688298 15%, #ee7898 30%, #e6ed8e 45%, #9ccdb4 60%, #778399 75%, #ed9ab0 100% );
   -webkit-background-size: cover;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
+  -webkit-text-fill-color: transparent; 
+  background-size: cover;
+  background-clip: text;
 }
 
 
