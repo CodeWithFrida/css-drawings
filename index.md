@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Overview CSS Drawings</title>
-</head>
-<body>
-    <h1>Find my favorite CSS Drawings here</h1>
+# CSS Drawings
 
-    <img src="images/welcome-panther.png">
+**Find my favorite CSS Drawings here**
 
-</body>
-</html>
+![The Pink Panther](/images/welcome-panther.png)
