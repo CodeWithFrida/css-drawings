@@ -39,14 +39,14 @@
 
 
 ![Coffee Time](/images/coffee-time.png)
-[CodePen-Link](https://codepen.io/CodeWithFrida/pen/MWaYLpO)
+[CodePen-Link](https://codepen.io/CodeWithFrida/pen/rNMpEEE)
 
 
 ![Spinning Loader - animated](/images/spinning-loader.png)
-[CodePen-Link](https://codepen.io/CodeWithFrida/pen/MWaYLpO)
+[CodePen-Link](https://codepen.io/CodeWithFrida/pen/JjRMgjY)
 
 
 ![First Animation](/images/first-animation.png)
-[CodePen-Link](https://codepen.io/CodeWithFrida/pen/MWaYLpO)
+[CodePen-Link](https://codepen.io/CodeWithFrida/pen/qBapzzO)
 
 
