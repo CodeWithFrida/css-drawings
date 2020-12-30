@@ -6,5 +6,8 @@
 </head>
 <body>
     <h1>Find my favorite CSS Drawings here</h1>
+
+    <img src="images/welcome-panther.png">
+
 </body>
 </html>
